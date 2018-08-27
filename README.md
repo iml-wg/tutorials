@@ -6,7 +6,7 @@
 * Open a terminal and clone the repository from github
 ```
 git clone https://github.com/iml-wg/tutorials
-``
+```
 
 * Go to the directory data
 ```
@@ -19,6 +19,6 @@ sh getdata.sh
 
 * Install python dependecies executing
 ```
-pip install scikit-learn dask[array]
+pip install scikit-learn dask[array] --user
 ```
 
