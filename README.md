@@ -19,6 +19,6 @@ sh getdata.sh
 
 * Install python dependecies executing
 ```
-pip install scikit-learn dask[array]
+pip install scikit-learn dask[array] --user
 ```
 
