@@ -22,3 +22,11 @@ sh getdata.sh
 pip install scikit-learn dask[array] --user
 ```
 
+# Parallel execution 
+
+For parallel execution add in the first cell
+```
+ROOT::EnableImplicitMT(8);
+```
+to use the 8 threads in swan.
+
